@@ -1,0 +1,4 @@
+-- settings.sql
+CREATE DATABASE klng;
+CREATE USER klnguser WITH PASSWORD 'klng';
+GRANT ALL PRIVILEGES ON DATABASE klng TO klnguser;
